@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Weather from './src/screens/Weather'
 
-const App = () => {
+const Calls = () => {
   return (
-    <Weather/>
+    <View>
+      <Text>Calls</Text>
+    </View>
   )
 }
 
-export default App
+export default Calls
 
 const styles = StyleSheet.create({})
